@@ -1,0 +1,17 @@
+mov    R5   , 10 ; rasgele input bosluklariyla falan yazmaya calistim
+SUB R5, 1  ; o yuzden boyle duzensiz gozukuyor
+MOV    r5, R4 
+ADD R1,    R5 
+   SUB R4, 1  
+jmp    R5, 9 ; if(r5==0)jmp 9
+    JMP R4, 2 ;if(r4==0)jmp 2
+JMP 4 ;sdfg
+mov r5  ,10
+sub r5, 1
+ mov R5 ,R4
+add r1, 10
+sub r4,1
+jmp r5,17
+   jmp R4, 10
+jmp 13
+HLT        ; r1 stores the result
